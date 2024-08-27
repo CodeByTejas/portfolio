@@ -42,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Cyber Security Analyst",
     icon: web,
   },
   {
@@ -50,11 +50,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Robotics",
     icon: creator,
   },
 ];
@@ -73,7 +73,7 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
+    name: "kali Linux",
     icon: typescript,
   },
   {
@@ -81,7 +81,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "ROS1",
     icon: redux,
   },
   {
@@ -105,22 +105,22 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
+    name: "Splunk",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Burpsuite",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Red Team Intern",
+    company_name: "CyberSapiens United LLP",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "April 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,137 +129,152 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Chief Technical Officer",
+    company_name: "IEEE-RAIT",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led the IEEE RAIT Research Wing, aligning teams across Web Development, Infrastructure, Inventory, and Event Management with strategic goals.",
+      "Developed training programs and mentored students to enhance learning and boost academic contributions.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Research Wing Head",
+    company_name: "IEEE-RAIT",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2023 - June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Oversaw research initiatives and projects, focusing on leveraging technology to enhance educational outcomes.",
+      "Collaborated with faculty and students to foster a culture of innovation and research within the institution.",
+    
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
+    title: "Technical Content Curator",
+    company_name: "MyEquation(formerly TechAnalogy)",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "December 2023 - January 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed educational tools and platforms using React.js and Node.js to enhance learning experiences.",
+      "Implemented interactive features and user interfaces based on educator and student feedback.",
+      "Ensured scalability and performance of applications through effective database management and backend optimization.",
+      "Contributed to all phases of the agile development lifecycle from design to deployment.",
     ],
   },
+
+  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Tejas proved me wrong.",
+    name: "Khushi Suryawanshi",
+    designation: "Student",
+    company: "D.Y. Patil University",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "As someone new to cybersecurity, the complex concepts of ethical hacking seemed daunting, thanks for help.",
+    name: "Lokesh Kelab",
+    designation: "Student",
+    company: "D.Y. Patil University",
+    image: "https://drive.google.com/drive/my-drive",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Thanks for helping in making my semester project using 3D models",
+    name: "Rahul Barna",
+    designation: "Student",
+    company: "D.Y. Patil University",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Intelli-Pick Robotic Arm",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      " Developed and built a robotic arm with 6 degrees of freedom, incorporating an ultrasonic sensor for precise object detection and distance measurement. Engineered a continuous object scanning system, enhancing the arm’s ability to autonomously detect, interact with objects in its environment and successfully filed a patent for the innovative design (Application No. 4131124001).",
     tags: [
       {
-        name: "react",
+        name: "robotics",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "arduino",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "3D print",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/CodeByTejas/advanceRoboticArm",
   },
   {
-    name: "Job IT",
+    name: "E-Learning  Platform",
+
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A seamless learning experience for both learners and educators by developing an intuitive platform that enhances user engagement, integrated an inbuilt ChatBot that efficiently addresses user queries in real time. Additionally, implemented timed quizzes to evaluate learner performance, providing instant feedback and ensuring a robust and interactive learning process.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "bootsrap",
         color: "green-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/CodeByTejas/ElearningWebsite",
   },
   {
-    name: "Trip Guide",
+    name: "Pay Secure-Docs",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I designed and implemented an asymmetric encryption algorithm, elevating document security and protecting sensitive data. I also developed a robust decryption mechanism, ensuring secure key management and data integrity. By integrating the Zero Trust Model, I enhanced user verification and access control.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "PyCryptodome",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "OAuth 2.0",
         color: "pink-text-gradient",
+      },
+      {
+        name: "AES",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cybersecurity",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/CodeByTejas/paySecureDocs",
   },
+
+  
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+
+export { services, technologies, experiences, testimonials, projects};

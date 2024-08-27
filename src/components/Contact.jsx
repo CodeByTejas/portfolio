@@ -1,11 +1,12 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import { FaLinkedin, FaInstagram, FaGithub, FaTwitter } from "react-icons/fa";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import socialLinks from '../constants/socialLinks';
 
 const Contact = () => {
   const formRef = useRef();
@@ -18,8 +19,8 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    // const { target } = e;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -31,18 +32,17 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+    emailjs.send(
+      service_3790stp,
+      template_0x10hal,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Tejas Sanjay Gupta",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "guptatejas86@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        Qlut65U3CluO8Sk74
       )
       .then(
         () => {
@@ -121,6 +121,22 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        {/* Social Media Links */}
+        <div className='mt-8 flex justify-center space-x-6'>
+          <a href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className='text-white hover:text-blue-400 text-3xl'>
+            <FaLinkedin />
+          </a>
+          <a href={socialLinks.instagram} target="_blank" rel="noopener noreferrer" className='text-white hover:text-pink-400 text-3xl'>
+            <FaInstagram />
+          </a>
+          <a href={socialLinks.github} target="_blank" rel="noopener noreferrer" className='text-white hover:text-gray-400 text-3xl'>
+            <FaGithub />
+          </a>
+          <a href={socialLinks.twitter} target="_blank" rel="noopener noreferrer" className='text-white hover:text-blue-400 text-3xl'>
+            <FaTwitter />
+          </a>
+        </div>
       </motion.div>
 
       <motion.div
@@ -129,6 +145,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      
     </div>
   );
 };
