@@ -14,6 +14,7 @@ import ProjectCard from './components/ProjectCard';
 import SkillBadge from './components/SkillBadge';
 import ExperienceCard from './components/ExperienceCard';
 import ExperiencePath from './components/ExperiencePath';
+import TechStackHexagon from './components/TechStackHexagon';
 
 const projects = [
   {
@@ -233,6 +234,7 @@ export default function App() {
         </div>
       </section>
 
+
       {/* Skills Section */}
       <section id="skills" className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -247,10 +249,7 @@ export default function App() {
               />
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Projects Section */}
+          {/* Projects Section */}
       <section id="projects" className="py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900">Projects</h2>
@@ -258,6 +257,16 @@ export default function App() {
             {projects.map((project) => (
               <ProjectCard key={project.title} {...project} />
             ))}
+          </div>
+        </div>
+      </section>
+          
+          {/* Tech Stack Section */}
+          <div className="mt-16">
+            <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
+              Tech Stack
+            </h3>
+            <TechStackHexagon />
           </div>
         </div>
       </section>
