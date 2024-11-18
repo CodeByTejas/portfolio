@@ -86,7 +86,9 @@ export default function App() {
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen overflow-hidden pt-16">
         <Hero3D />
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+{/*         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"> */}
+            <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
           <div className="pt-32">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
