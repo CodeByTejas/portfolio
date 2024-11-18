@@ -9,3 +9,26 @@ html {
 body {
   @apply antialiased;
 }
+
+.hexagon-container {
+  position: relative;
+  margin: 10px;
+}
+
+.hexagon {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: white;
+  will-change: transform;
+}
+
+.hexagon-hover {
+  transform: translateY(-5px);
+}
+
+.hexagon img {
+  transition: transform 0.3s ease;
+}
+
+.hexagon:hover img {
+  transform: scale(1.1);
+}
