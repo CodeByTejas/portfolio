@@ -41,7 +41,7 @@ const projects = [
     image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fshurutech.com%2Fwp-content%2Fuploads%2F2023%2F06%2FLangChain-Components.webp&f=1&nofb=1&ipt=36a8a19d5b880512d230629ecee60cf14c7436535978a0a42342b73ba62d07cb&ipo=images',
     github: 'https://github.com/CodeByTejas/Cold-Email_Generator',
     demo: 'https://github.com/CodeByTejas/Cold-Email_Generator',
-    tags: ['React', 'Node.js', 'OpenAI', 'TypeScript'],
+    tags: ['Python', 'Streamlit', 'Langchain', 'SQLite'],
   },
   {
     title: 'StegoCrypto',
