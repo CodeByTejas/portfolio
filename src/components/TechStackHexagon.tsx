@@ -49,6 +49,10 @@ const techStack = [
   {
     name: 'Kali Linux',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg'
+  },
+  {
+    name: 'LangChain',
+    logo: 'https://commons.wikimedia.org/wiki/File:LangChain_logo.png'
   }
 ];
 
