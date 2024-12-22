@@ -22,17 +22,35 @@ const projects = [
     description:
       'The Honeypot Monitoring System is a real-time monitoring tool designed to detect, visualize, and analyze potential security threats and performance metrics in a secure environment.',
     image: 'https://www.techtarget.com/rms/onlineimages/security-honeypot_place_in_network-f.png',
-    github: 'https://github.com',
-    demo: 'https://demo.com',
+    github: 'https://github.com/CodeByTejas/cybersentry',
+    demo: 'https://github.com/CodeByTejas/cybersentry',
     tags: ['React', 'Typescript', 'Leafletjs', 'security'],
+  },
+  {
+    title: 'Food Delivery Demand Forecasting',
+    description:
+      'A machine learning system that predicts food delivery order volumes based on weather, time patterns, and other factors.',
+    image: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ldjyz35E-1s7AAqWc0d-3A.jpeg',
+    github: 'https://github.com/CodeByTejas/Delivery-Predictor',
+    demo: 'https://github.com/CodeByTejas/Delivery-Predictor',
+    tags: ['Machine Learning', 'XGBoost', 'Python', 'Weather API'],
+  },
+   {
+    title: 'Food Delivery Demand Forecasting',
+    description:
+      'A robust and feature-rich system designed to streamline the payment reconciliation process.',
+    image: 'https://decentro.tech/blog/wp-content/uploads/What_is_Payment_Reconciliation_new.jpeg',
+    github: 'https://github.com/CodeByTejas/Payment-Reconciliation-System',
+    demo: 'https://github.com/CodeByTejas/Payment-Reconciliation-System',
+    tags: ['Typescript', 'Chartjs', 'MySQL', 'Nodejs'],
   },
   {
     title: 'RoboRover',
     description:
       'Autonomous security robot with YOLO-based face recognition system.',
     image: 'https://content.instructables.com/FY3/WAQL/KAL2SEFQ/FY3WAQLKAL2SEFQ.jpg?auto=webp&frame=1&width=600&height=1024&fit=bounds&md=MjAyMC0wNS0yNCAxNTozMDoxNC4w',
-    github: 'https://github.com',
-    demo: 'https://demo.com',
+    github: 'https://github.com/CodeByTejas/',
+    demo: 'https://github.com/CodeByTejas/',
     tags: ['Python', 'ROS', 'Computer Vision', 'AI'],
   },
   {
