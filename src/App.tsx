@@ -17,6 +17,15 @@ import ExperiencePath from './components/ExperiencePath';
 import TechStackHexagon from './components/TechStackHexagon';
 
 const projects = [
+   {
+    title: 'Cybersentry Honeypot Monitoring System',
+    description:
+      'The Honeypot Monitoring System is a real-time monitoring tool designed to detect, visualize, and analyze potential security threats and performance metrics in a secure environment.',
+    image: 'https://github.com/CodeByTejas/cybersentry/blob/main/output/result1.jpg',
+    github: 'https://github.com',
+    demo: 'https://demo.com',
+    tags: ['React', 'Typescript', 'Leafletjs', 'security'],
+  },
   {
     title: 'RoboRover',
     description:
