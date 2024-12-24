@@ -36,7 +36,7 @@ const projects = [
     tags: ['Machine Learning', 'XGBoost', 'Python', 'Weather API'],
   },
    {
-    title: 'Food Delivery Demand Forecasting',
+    title: 'Payment reconciliation System',
     description:
       'A robust and feature-rich system designed to streamline the payment reconciliation process.',
     image: 'https://decentro.tech/blog/wp-content/uploads/What_is_Payment_Reconciliation_new.jpeg',
