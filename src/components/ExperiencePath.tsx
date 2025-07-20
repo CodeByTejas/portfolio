@@ -5,6 +5,7 @@ import * as THREE from 'three';
 
 function CurvedPath() {
     const curve = new THREE.CatmullRomCurve3([
+      // new THREE.Vector3(-3, -2, 1),
       new THREE.Vector3(-2, -2, 0),
       new THREE.Vector3(-1, 0, 0),
       new THREE.Vector3(0, 1, 0),
@@ -27,8 +28,8 @@ function CurvedPath() {
       curve.getPointAt(0.1), // Research Wing Head
       curve.getPointAt(0.3), // Technical Content Curator
       curve.getPointAt(0.5), // Cybersecurity Intern
-      curve.getPointAt(0.7), // Chief Technical Officer
-    //   curve.getPointAt(0.9), // for adding new position
+      // curve.getPointAt(0.7), // Chief Technical Officer
+      // curve.getPointAt(0.9), // for adding new position
     ];
   
     return (
@@ -50,7 +51,7 @@ function CurvedPath() {
             anchorX="center"
             anchorY="middle"
           >
-            {["Research Wing Head", "Technical Content Curator", "Cybersecurity Intern", "Chief Technical Officer"][index]}
+            {["Cybersecurity Intern", "SDE Intern", "SDE L1"][index]}
           </Text>
         ))}
       </>

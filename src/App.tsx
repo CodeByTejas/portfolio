@@ -138,7 +138,7 @@ export default function App() {
                   Contact Me
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1ofv75-Re0A7MHdQDm9Vj-X_0yxNIcTei/view?usp=drive_link"
+                  href="https://drive.google.com/drive/folders/13XG7R7VX0oS_pZcoaUAj4RVuObsiIJaP"
                   className="flex items-center gap-2 rounded-lg border border-gray-300 px-6 py-3 text-gray-700 hover:bg-gray-50"
                 >
                   <Download size={20} />
@@ -226,14 +226,30 @@ export default function App() {
           <div className="mt-12">
             <ExperiencePath />
             <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              <ExperienceCard
+              {<ExperienceCard
+                title="SDE L1"
+                company="Indrones Solutions Pvt Ltd"
+                location="Navi Mumbai Onsite"
+                period="June - Present"
+                description="Working on the Change Detection project for understanding the occurence of changes in the geospatial data on two different timelines. "
+                index={0}
+              />}
+            <ExperienceCard
+                title="SDE Intern"
+                company="Indrones Solutions Pvt Ltd"
+                location="Navi Mumbai Onsite"
+                period="Jan 2025 - Present"
+                description="Working on Geospatial data visualization using Reactjs, Leafletjs, threejs, Cesiumjs and also handling the optimization of backend  data pipelinefor specific usecases."
+                index={0}
+              />
+              {/* <ExperienceCard
                 title="Chief Technical Officer"
                 company="IEEE - Ramrao Adik Institute of Technology"
                 location="Navi Mumbai-Hybrid"
                 period="July 2024 - Present"
                 description="Leading technical strategy and innovation initiatives. Managing a team of developers and architects. Implementing cutting-edge solutions for enterprise clients."
                 index={0}
-              />
+              /> */}
               <ExperienceCard
                 title="Cybersecurity Intern"
                 company="Cybersapiens United LLP"
@@ -242,22 +258,22 @@ export default function App() {
                 description="Conducted vulnerability assessments and penetration testing. Developed security protocols and incident response procedures. Implemented security awareness training programs."
                 index={1}
               />
-              <ExperienceCard
+              {/* <ExperienceCard
                 title="Research WingHead"
                 company="IEEE - Ramrao Adik Institute of Technology"
                 location="Navi Mumbai-Hybrid"
                 period="June 2023 - June 2024"
                 description="Led research initiatives in AI and robotics. Published papers on autonomous systems. Mentored junior researchers and coordinated project teams."
                 index={2}
-              />
-              <ExperienceCard
+              /> */}
+              {/* <ExperienceCard
                 title="Technical Content Curator"
                 company="MyEquation United LLP"
                 location="Mumbai-Remote"
                 period="Dec 2023 - Feb 2024"
                 description="We create high-quality, engaging content on Robotics and AI/ML, including tutorials, guides, and educational resources, to simplify complex concepts and inspire learning. Our mission is to bridge the gap between technology and its audience by delivering accurate, trend-driven insights."
-                index={2}
-              />
+                index={2} */}
+              {/* /> */}
             </div>
           </div>
         </div>
