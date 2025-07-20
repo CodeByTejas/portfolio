@@ -15,20 +15,8 @@ const techStack = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg'
   },
   {
-    name: 'HTML',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg'
-  },
-  {
-    name: 'CSS',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg'
-  },
-  {
     name: 'React',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'
-  },
-  {
-    name: 'TypeScript',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg'
   },
   {
     name: 'Python',
@@ -46,14 +34,65 @@ const techStack = [
     name: 'Three.js',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Three.js_Icon.svg'
   },
-  {
-    name: 'Kali Linux',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Kali-dragon-icon.svg'
-  },
+
   {
     name: 'LangChain',
     logo: 'https://commons.wikimedia.org/wiki/File:LangChain_logo.png'
+  },
+
+  {
+    name: 'Machine Learning',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/ML-logo.svg'
+  },
+  {
+    name: 'Computer Vision',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Computer_vision.svg'
+  },
+  {
+    name: 'OpenCV',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg'
+  },
+  {
+    name: 'YOLO',
+    logo: 'https://github.com/ultralytics/ultralytics'
+  },
+  {
+    name: 'SAM',
+    logo: 'https://github.com/facebookresearch/segment-anything/raw/main/assets/sam-logo.png'
+  },
+  {
+    name: 'PyTorch',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg'
+  },
+  {
+    name: 'TensorFlow',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg'
+  },
+  {
+    name: 'Keras',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg'
+  },
+  {
+    name: 'scikit-learn',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg'
+  },
+  {
+    name: 'MediaPipe',
+    logo: 'C:/Users/ASUS/Desktop/allProject/liveportfolio/portfolio/public/images/projects/mediapipe_small.png'
+  },
+  {
+    name: 'Detectron2',
+    logo: 'https://github.com/facebookresearch/detectron2/blob/main/.github/Detectron2-Logo-Horz.svg'
+  },
+  {
+    name: 'NVIDIA CUDA',
+    logo: 'https://docs.nvidia.com/cuda/cuda-logo.png'
+  },
+  {
+    name: 'ONNX',
+    logo: 'https://github.com/onnx/onnx/raw/main/docs/onnx-horizontal-color.png'
   }
+
 ];
 
 function HexagonLogo({ logo, name }: { logo: string; name: string }) {
