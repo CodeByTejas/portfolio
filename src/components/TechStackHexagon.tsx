@@ -37,16 +37,7 @@ const techStack = [
 
   {
     name: 'LangChain',
-    logo: 'https://commons.wikimedia.org/wiki/File:LangChain_logo.png'
-  },
-
-  {
-    name: 'Machine Learning',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/ML-logo.svg'
-  },
-  {
-    name: 'Computer Vision',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Computer_vision.svg'
+    logo: 'public/images/projects/langchain.svg'
   },
   {
     name: 'OpenCV',
@@ -54,11 +45,11 @@ const techStack = [
   },
   {
     name: 'YOLO',
-    logo: 'https://github.com/ultralytics/ultralytics'
+    logo: '/images/projects/yolo.jpg'
   },
   {
     name: 'SAM',
-    logo: 'https://github.com/facebookresearch/segment-anything/raw/main/assets/sam-logo.png'
+    logo: 'public/images/projects/sam.jpg'
   },
   {
     name: 'PyTorch',
@@ -78,11 +69,11 @@ const techStack = [
   },
   {
     name: 'MediaPipe',
-    logo: 'C:/Users/ASUS/Desktop/allProject/liveportfolio/portfolio/public/images/projects/mediapipe_small.png'
+    logo: 'public/images/projects/mediapipe_small.png'
   },
   {
     name: 'Detectron2',
-    logo: 'https://github.com/facebookresearch/detectron2/blob/main/.github/Detectron2-Logo-Horz.svg'
+    logo: 'public/images/projects/Detectron2.svg'
   },
   {
     name: 'NVIDIA CUDA',
