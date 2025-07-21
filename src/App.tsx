@@ -238,7 +238,7 @@ export default function App() {
                 title="SDE Intern"
                 company="Indrones Solutions Pvt Ltd"
                 location="Navi Mumbai Onsite"
-                period="Jan 2025 - Present"
+                period="Jan 2025 - May 2025"
                 description="Working on Geospatial data visualization using Reactjs, Leafletjs, threejs, Cesiumjs and also handling the optimization of backend  data pipelinefor specific usecases."
                 index={0}
               />
